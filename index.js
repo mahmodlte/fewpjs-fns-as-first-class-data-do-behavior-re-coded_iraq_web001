@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-let msg
+
 function greet(time){
   let splitedTime = time.split(" ").join(':');
 
@@ -29,5 +29,5 @@ function greet(time){
 function displayMessage (msg){
   let headId = document.getElementById('greeting');
   console.log(headId);
-  headId.innerHTML = msg;
+  headId.innerText = msg;
 }
