@@ -26,10 +26,8 @@ function greet(time){
 }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage (greeting){
-  let msg = document.getElementById('greeting');
-  msg.innerHTML = greeting;
-
-
-
+function displayMessage (msg){
+  let headId = document.getElementById('greeting');
+  console.log(headId);
+  headId.innerHTML = msg;
 }
